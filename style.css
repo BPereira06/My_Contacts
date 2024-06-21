@@ -1,0 +1,82 @@
+/*
+SELETOR{
+    PROPRIEDADE: VALOR;
+}
+*/
+body{
+    background-color: #2D033B;
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.principal{
+    background-color: #F2DFE2;;
+    height: 501px;
+    width: 340px;
+    text-align: center;
+    border-radius: 10px;
+    
+    margin-top: 103px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+}
+
+img{
+    width: 100px;
+    border-radius: 50%;
+
+    border: solid 5px #2D033B;
+}
+
+h1{
+    color: #2D033B;
+    font-size: 32px;
+    margin: 30px 0 0 0;
+}
+
+h2{
+    color: #810CA8;
+    font-size: 20px;
+    margin-bottom: 11px;
+    margin: 0;
+}
+.menu{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu a{
+    display: block;
+    margin-bottom: 3px;
+    background-color: #2D033B;;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    transition: all .5s ease;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #E5B8F4;
+    color: #2D033B;
+}
+
+.but-ultimo{
+    display: inline-block;
+    color: #2D033B;
+    text-decoration: none;
+}
+
+.but-ultimo:hover{
+    background-color: #F2DFE2;
+    text-decoration: underline;
+}
+
+p{
+    color: #666;
+    text-align: center;
+    font-size: 16px;
+    margin: 11px 0 31px 0;
+}
